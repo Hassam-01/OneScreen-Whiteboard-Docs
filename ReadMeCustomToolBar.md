@@ -5,14 +5,14 @@ We’ve replaced the default Flat Whiteboard toolbar (which was disabled via con
 
 The default toolbar (and undo/redo, page control, zoom) is disabled in:
 
-// path: service-providers/fastboard/src/index.ts
+''' // path: service-providers/fastboard/src/index.ts
 config: {
   toolbar:     { enable: false, apps: { enable: true } },
   redo_undo:   { enable: false },
   page_control:{ enable: false },
   zoom_control:{ enable: false },
 },
-
+'''
 🧩 Custom Toolbar Structure
 
 All custom-toolbar components live under:
