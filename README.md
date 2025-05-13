@@ -20,6 +20,11 @@ This documentation covers the custom implementation, configurations, and workaro
   2. Configure keys in `development.lock.yaml` (backend) **only for local server setup**.  
   3. *Frontend-only usage can connect directly to Agora without backend keys.*  
 
+### 3. **Running the Project** 
+- navigate to cd web
+- cd flat-web
+- pnpm install
+- pnpm start
 ---
 
 ### Documentation is done workspace and folder wise. Please refer to the relevant folder or readme for detailed documentation of required module.
